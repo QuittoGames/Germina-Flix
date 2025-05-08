@@ -89,14 +89,14 @@ nav {
     margin: 5px;
     text-align: center;
     padding: auto;
-    transform: scale(0.9);
+    transform: scale(0.95);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    animation: Winget_Effect_Up 1s ease;
+    animation: Winget_Effect_Up 0.3s ease;
 }
 
 /* houver e uma propidade do css para usar em animaçoes */
 .movie:hover {
-    animation: Winget_Effect_Up 1s ease forwards; /* Animação ao passar o mouse */
+    animation: Winget_Effect_Up 0.3s ease forwards; /* Animação ao passar o mouse */
 }
 
 .content_movie{
