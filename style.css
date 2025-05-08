@@ -8,19 +8,6 @@
 
 /* Usei um pocuo do gpt para aprender como usa o grap, keyframes, e :houver */
 
-/* Animaçoes */
-@keyframes Winget_Effect_Up {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transition: translateY(-5px);
-    }
-    100%{
-        transform: translateY(-10px);
-    }
-}
-
 .body{
     margin: 0 auto;
     padding: 0 auto;
@@ -91,12 +78,13 @@ nav {
     padding: auto;
     transform: scale(0.95);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    animation: Winget_Effect_Up 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* houver e uma propidade do css para usar em animaçoes */
 .movie:hover {
-    animation: Winget_Effect_Up 0.3s ease forwards; /* Animação ao passar o mouse */
+    transform: translateY(-10px); /* Muda o Y com O Hover*/
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .content_movie{
