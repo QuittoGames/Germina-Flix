@@ -121,3 +121,9 @@ footer{
     align-items: center;
     justify-items: center;
 }
+
+#title_content{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
