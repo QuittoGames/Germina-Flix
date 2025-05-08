@@ -126,7 +126,8 @@ nav {
     width: auto;
 }
 
-footer{
+footer{   
+    bottom: 0;     
     align-items: center;
     justify-items: center;
 }
