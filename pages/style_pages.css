@@ -8,6 +8,7 @@
     width: 100%;
     height: auto;
     max-height: 600px; /* Limita altura se a imagem for muito grande */
+    margin-top: 10px;
 }
 
 .banner img {
@@ -16,6 +17,7 @@
     margin-top: 10px;
     border-radius: 8px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(0px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

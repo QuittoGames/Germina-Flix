@@ -106,7 +106,6 @@ nav {
 }
 
 
-
 .content_movie button {
     background-color: var(--primary_color);
     color: white;
@@ -117,13 +116,17 @@ nav {
     width: 100px;
 }
 
-footer{
-    align-items: center;
-    justify-items: center;
-}
-
 #title_content{
     text-align: center;
     justify-content: center;
+    justify-items: center;
+}
+
+#accont_Logo{
+    width: auto;
+}
+
+footer{
+    align-items: center;
     justify-items: center;
 }
