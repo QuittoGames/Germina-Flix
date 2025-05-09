@@ -3,6 +3,7 @@
     --primary_color: rgb(12, 80, 206);
     --second_color: rgb(237, 237, 237);
     --three_color: rgb(221, 221, 221);
+    --four_color: rgb(10, 85, 225);
     background-color: var(--background_color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -12,6 +13,10 @@
 .body{
     margin: 0 auto;
     padding: 0 auto;
+}
+
+a{
+    color: var(--second_color);
 }
 
 img{
@@ -108,7 +113,7 @@ nav {
 
 
 .content_movie button {
-    background-color: var(--primary_color);
+    background-color: var(--four_color);
     color: white;
     padding: 6px 10px;
     border-radius: 5px;
