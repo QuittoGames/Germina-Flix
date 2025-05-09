@@ -1,0 +1,54 @@
+.body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.account{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.account p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon_user{
+    margin: 0 auto;
+    border-radius: 35px;
+    transition: transform 0.3s ease; 
+}
+
+.icon_user:hover{
+    transform: translateY(-10px); /* Muda o Y com O Hover*/
+}
+
+.plano{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 500px;
+    /* border: 1px solid; */
+    background-color: var(--three_color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.plano:hover {
+    transform: translateY(-10px); /* Muda o Y com O Hover*/
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.plano img {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 480px;
+}

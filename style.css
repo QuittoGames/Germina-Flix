@@ -2,6 +2,7 @@
     --background_color:rgb(226, 225, 225);
     --primary_color: rgb(12, 80, 206);
     --second_color: rgb(237, 237, 237);
+    --three_color: rgb(221, 221, 221);
     background-color: var(--background_color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
