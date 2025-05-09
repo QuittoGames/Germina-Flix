@@ -137,3 +137,8 @@ footer{
     align-items: center;
     justify-items: center;
 }
+
+footer a{
+    color: var(--four_color);
+
+}
