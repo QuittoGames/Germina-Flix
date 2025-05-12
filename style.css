@@ -1,11 +1,13 @@
-:root{
-    --background_color:rgb(226, 225, 225);
-    --primary_color: rgb(12, 80, 206);
-    --second_color: rgb(237, 237, 237);
-    --three_color: rgb(221, 221, 221);
-    --four_color: rgb(10, 85, 225);
+:root {
+    --background_color: rgb(20, 20, 20);         /* fundo escuro principal */
+    --primary_color: rgb(55, 55, 55);          /* azul mais suave e elegante */
+    --second_color: rgb(28, 28, 28);             /* áreas secundárias (cards) */
+    --three_color: rgb(40, 40, 40);              /* contraste leve */
+    --four_color: rgb(50, 120, 220);             /* azul para detalhes/hover */
+    
     background-color: var(--background_color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eaeaea;
 }
 
 /* Usei um pocuo do gpt para aprender como usa o grap, keyframes, e :houver */
@@ -13,10 +15,11 @@
 .body{
     margin: 0 auto;
     padding: 0 auto;
+    color: #fff;
 }
 
 a{
-    color: var(--second_color);
+    color: var(#ffff);
 }
 
 img{
@@ -45,6 +48,14 @@ nav {
 #logo{
     border-radius: 5px;
     display: flex;
+}
+
+#accont_Logo{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#accont_Logo:hover{
+    transform: translateY(-5px);
 }
 
 .recomend section{
@@ -90,7 +101,7 @@ nav {
 /* houver e uma propidade do css para usar em animaçoes */
 .movie:hover {
     transform: translateY(-10px); /* Muda o Y com O Hover*/
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 50px var(--four_color);
 }
 
 .content_movie{
