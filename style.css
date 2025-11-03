@@ -20,6 +20,7 @@
 a{
     color: #fff;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 
 img{
@@ -45,17 +46,23 @@ nav {
 
 }
 
+.link_Logo{
+    color: #fff;
+    text-decoration: none;
+    gap: 5px;
+    border-radius: 8px;
+    padding: 0px;
+    background-color: transparent;
+    transition: none;
+}
+
+.link_Logo:hover{
+    transform: none;
+}
+
 #logo{
     border-radius: 5px;
     display: flex;
-}
-
-#accont_Logo{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#accont_Logo:hover{
-    transform: translateY(-5px);
 }
 
 .recomend section{
