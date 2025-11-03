@@ -16,12 +16,15 @@
     margin-top: 10px;
 }
 
-#profile_photo_abount_me{
+#profile_photo_abount_me {
     margin-top: 10px;
-    width: 100px;
-    border-radius: 50px;
+    width: clamp(70px, 20vw, 120px);
+    height: clamp(70px, 20vw, 120px);
+    border-radius: 50%;
+    object-fit: cover;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 #profile_photo_abount_me:hover{
     transform: translateY(-5px); /* Muda o Y com O Hover*/
@@ -99,4 +102,30 @@
 
 .btn_link a{
     text-decoration: none;
+}
+
+.tags{
+    display: flex;
+}
+
+.linguage{
+    border-radius: 8px;
+    border: cyan 5px;
+    background: transparent;
+    filter: blur(0.3px);
+    box-shadow: 0 5px 15px rgba(5, 172, 244, 0.2);
+    padding: 1px 2px;
+    height: min-content;
+    display: flex;
+    width: 4.5%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4mm;
+    margin-left: 1mm;
+    margin-right: 1mm;
+}
+
+.linguage p{
+    margin: 1mm;
 }

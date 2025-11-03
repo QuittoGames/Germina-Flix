@@ -33,7 +33,7 @@ nav {
     justify-content: space-between;
     align-items: center; /* Ajustado para centralizar os itens verticalmente */
     background-color: var(--primary_color);
-    padding: 10px 20px;
+    padding: 1vw 2vw;
     border-radius: 5px;
     margin: 1px;
 }
@@ -102,12 +102,12 @@ nav {
     padding: auto;
     transform: scale(0.95);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
 }
 
 /* houver e uma propidade do css para usar em animaçoes */
 .movie:hover {
-    transform: translateY(-10px); /* Muda o Y com O Hover*/
+    transform: translateY(-2px); /* Muda o Y com O Hover*/
     box-shadow: 0 10px 55px var(--four_color);
 }
 
