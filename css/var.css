@@ -1,0 +1,10 @@
+:root {
+    --background_color: rgb(20, 20, 20);         /* fundo escuro principal */
+    --primary_color: rgb(55, 55, 55);          /* azul mais suave e elegante */
+    --second_color: rgb(28, 28, 28);             /* áreas secundárias (cards) */
+    --three_color: rgb(40, 40, 40);              /* contraste leve */
+    --four_color: rgb(50, 120, 220);             /* azul para detalhes/hover */
+    background-color: var(--background_color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eaeaea;
+}
