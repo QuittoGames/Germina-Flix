@@ -32,7 +32,19 @@ nav {
     gap: 10px;
     margin-left: auto; /* Empurra os links para a borda direita */
     justify-content: space-between;
+    transition: all 0.5s;
 
+}
+
+.links a{
+    padding: 0.5mm 1mm;
+}
+
+.links a:hover{
+    background-color: var(--primary_color);
+    box-shadow: 0 5px 15px rgba(5, 132, 244, 0.2);
+    filter: blur(0.4px);    
+    border-radius: 8px;
 }
 
 .link_Logo{
