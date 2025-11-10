@@ -64,6 +64,7 @@ nav {
 #logo{
     border-radius: 5px;
     display: flex;
+    gap: 5px;
 }
 
 .recomend section{
@@ -155,9 +156,9 @@ footer{
     bottom: 0;     
     align-items: center;
     justify-items: center;
+    text-align: center;
 }
 
 footer a{
     color: var(--four_color);
-
 }
