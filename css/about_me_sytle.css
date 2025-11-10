@@ -11,7 +11,29 @@
     margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
+    padding: 1mm 2mm;
+    display: flex;
 }
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    background-color: var(--second_color);
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5mm;
+    transition: all 0.5s ease;
+    flex-direction: row;
+}
+
 
 .infos{
     margin: 5px;
@@ -51,6 +73,7 @@
 
 .redes img{
     width: 25px;
+    box-shadow: 0 5px 35px rgba(5, 172, 244, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
